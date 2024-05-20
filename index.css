@@ -1,0 +1,290 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url(./bg-image.svg) no-repeat center / cover;
+    font-style: normal; 
+    font-optical-sizing: auto;
+}
+
+.logo{
+    margin-top: 20px;
+    margin-left: 75px;
+    width: auto;
+}
+
+
+main{
+    margin-top: 44px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.c1, .c2, .c3{
+  width: 810px;
+  height: fit-content;
+}
+
+h1{
+    margin: 0px;
+    padding: 0px;
+    padding-right: 32px;
+    padding-left: 32px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 64px;
+    color: #F8FAFC;
+    text-align: center;
+}
+
+.c2{
+    margin-top: 16px;
+}
+
+p{  
+    margin: 0px;
+    padding: 0px;
+    padding-right: 32px;
+    padding-left: 32px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 32px;
+    color: #F8FAFC;
+    text-align: center;
+}
+
+
+form{
+    margin: 0px;
+    margin-top: 72px;
+    margin-bottom: 100px;
+    width: 746px;
+    padding: 32px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background-color: rgba(205, 213, 224, 0.22);
+
+}
+
+
+label{
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    color: #F8FAFC;
+}
+
+input[type=text]{
+    width: 330px;
+    padding: 24px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-size:16px;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 16px;
+    border: 0;
+    color: #CDD5E0;
+}
+
+select{
+    width: 364px;
+    padding: 24px;
+    padding-left: 18px;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #111729;
+    border-radius: 16px;
+    background-image: url(Expand_down.svg);
+    appearance: none; /* Disable default appearance */
+    -webkit-appearance: none; /* Disable default appearance for WebKit browsers */
+    -moz-appearance: none; /* Disable default appearance for Mozilla browsers */
+    background-position: right 18px center; /* Position the arrow on the right side */
+    background-repeat: no-repeat;
+    padding-right: 38px;
+}
+
+select:focus {
+    outline: none; /* Remove default focus outline */
+  }
+
+
+.c31{
+    width: 746px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.c31b{
+    margin-left: 18px;
+
+}
+
+.c32{
+    margin-top: 24px;
+    width: 746px;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.c32b{
+    margin-left: 18px;
+}
+
+.c33{
+    margin-top: 24px;
+}
+
+textarea{
+    width: 710px;
+    height: 200px;
+    padding: 18px;
+    text-align: left;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #111729;
+    background-color: #F8FAFC;
+    border-radius: 16px;
+    border: 0;
+    resize: none;
+}
+
+button{
+    margin-top: 24px;
+    width: 746px;
+    padding: 18px;
+    text-align: center;
+    border-radius: 16px;
+    border: 0;
+    font-family: "Be Vietnam Pro", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    color: #4036A9;
+}
+
+
+@media screen and (min-width: 778px) and (max-width: 1024px){
+
+    .logo{
+        margin-left: 50px;  
+    }
+
+    .c1{
+        width: 100%;
+        max-width: 576px;
+        text-align: center;
+    }
+
+    h1{
+        font-size: 48px;
+    }
+    
+    .c2{
+        width: 100%;
+        max-width: 576px;
+        text-align: center;
+    }
+    p{  
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 777px) {
+
+    .logo{
+        margin-left: 25px; 
+    }
+
+    .c1{
+        width: 100%;
+        max-width: 450px;
+        text-align: center;
+    }
+
+    .c2{
+        width: 100%;
+        max-width: 450px;
+        text-align: center;
+        margin-top: 0px;
+    }
+    .c3{
+        width:100%;
+        max-width: 746px;
+    }
+
+    h1{
+        font-size: 38px;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    form{
+        width: auto;
+        margin: 16px;
+        max-width: 746px;
+    }
+
+    .c31, .c32, .c33, .c34 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .c31a, .c32a{
+        margin-left: 0px;
+        margin-bottom: 16px;
+        width: 100%;
+        max-width: 618px;
+    }
+
+    .c31b, .c32b{
+        margin-left: 0px;
+        width: 100%;
+        max-width: 618px;
+    }
+
+
+    input[type=text]{
+        max-width: ;
+        width: 94.1%;
+    }
+
+    select{
+        width: 100%;
+    }
+
+    textarea{
+        width: 94.1%;
+        height: 120px;
+    }
+
+    button{
+        width: 100%; 
+    }
+
+
+}
